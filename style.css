@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+body{
+    background-color:#18191A;
+}
+header{
+    position: relative;
+    top: 0;
+    background-color: #242526;
+    border: 1px solid #3b3f42;
+}
+#navRight{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#fbLogo{
+    padding: 9px;
+}
+#logo{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: #1198F5;
+    border-radius: 50%;
+    outline: none;
+    text-decoration: none;
+}
+#searchBarDiv{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    border-radius: 50px;
+    background-color: #373e46;
+}
+#searchBar{
+    border: none;
+    outline: none;
+    width: 200px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 7px;
+    background-color: transparent;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius: 50px;
+}
+#searchIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+#searchIcon{
+    color: #B0B3B8;
+    font-size: 15px;
+    cursor: pointer;
+}
+#leftNavBar{
+    position: absolute;
+    width: 300px;    
+    /* height: 100%; */
+    background-color: transparent;
+    overflow: auto;
+    overflow-x: hidden;
+    z-index: -1;
+}
+.itemsDiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#icon,.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#profileText{
+    color: rgb(228, 230, 235);
+    font-size: 15px;
+    margin: 2px;
+    font-weight: 600;
+}
+.fa-bookmark{
+    color:#AE4BC9;
+}
+.fa-store-alt, .fa-user-friends, .fa-calendar-week, .fa-flag{
+    color: #318EF5;
+}
+.fa-users{
+    color: rgb(226, 220, 220);
+    background-color: #318EF5;
+}
+.fa-history{
+    color: #318EF5;
+    background-color:rgb(226, 220, 220);
+}
+.fa-cloud-sun{
+    color:#B5C7D1;
+}
+.fa-briefcase{
+    color:#E28C39 ;
+}
+#leftNavBar #leftNavBarUl{
+    margin-top: 10px;
+
+}
+#leftNavBar #leftNavBarUl li{
+    margin-left: 20px;
+    list-style: none;
+}
+#leftNavBar #leftNavBarUl li:hover{
+   border-radius: 10px;
+    background-color: #303031;
+    cursor: pointer;
+}
+.fa-chevron-circle-down{
+    color: #444546;
+    background-color: #E7E9ED;
+    border: 5px solid #444546;
+}
+#LeftSecLineBreak{
+    margin-top: 15px;
+    margin-left: 7px;
+    width: 95%;
+    border: 1px solid #444544;
+}
+#yourShortcutsDiv{
+    display: flex;
+    margin: 15px 0px 0px 25px;
+    color: rgb(176, 179, 184);
+}
+#seeMore2{
+    margin: 10px;
+}
