@@ -8,7 +8,7 @@ body {
   background-color: #18191a;
 }
 header {
-    width: 100%;
+  width: 100%;
   background-color: #242526;
   border: 1px solid #3b3f42;
   
@@ -196,7 +196,7 @@ header ul li {
     align-items: center;
     justify-content: center;
 }
-#nineDotsDiv{
+.navRightIconsDiv{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,4 +204,13 @@ header ul li {
     background-color: #4E4F50;
     border-radius: 50%;
     padding: 6px; 
+}
+#messengerIconDiv,#notificationIconDiv, #dropDownIconDiv{
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  margin-left: 10px;
+}
+.navRightIconsDiv:hover{
+  background-color: rgba(151, 144, 144, 0.9);
 }
