@@ -8,6 +8,8 @@ body {
   background-color: #18191a;
 }
 header {
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color: #242526;
   border: 1px solid #3b3f42;
@@ -20,7 +22,7 @@ header ul li {
   justify-content: left;
   height: 60px;
 }
-#navRight {
+#navLeft {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -68,14 +70,12 @@ header ul li {
   font-size: 15px;
   cursor: pointer;
 }
-#leftNavBar {
-  position: absolute;
+#leftContentBar{
   width: 300px;
-  /* height: 100%; */
+  height: 90vh;
   background-color: transparent;
   overflow: auto;
   overflow-x: hidden;
-  z-index: -1;
 }
 #navCenter {
     display: flex;
@@ -145,14 +145,14 @@ header ul li {
 .fa-briefcase {
   color: #e28c39;
 }
-#leftNavBar #leftNavBarUl {
+#leftContentBarUl {
   margin-top: 10px;
 }
-#leftNavBar #leftNavBarUl li {
+#leftContentBarUl li {
   margin-left: 20px;
   list-style: none;
 }
-#leftNavBar #leftNavBarUl li:hover {
+#leftContentBarUl li:hover {
   border-radius: 10px;
   background-color: #303031;
   cursor: pointer;
@@ -168,6 +168,7 @@ header ul li {
     justify-content: center;
     height: 40px;
     width: 100px;
+    cursor: pointer;
 }
 #profileDiv:hover{
     border-radius: 600px;
@@ -213,4 +214,103 @@ header ul li {
 }
 .navRightIconsDiv:hover{
   background-color: rgba(151, 144, 144, 0.9);
+}
+#mainContent{
+  display: flex;
+  position: absolute;
+  top: 60px;
+  margin-top: 10px;
+  background-color: rgb(126, 98, 98);
+}
+.MaincenterContent{
+  border: 4px solid red;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+#centerContent{
+  height: 255px;
+  overflow: auto;
+  overflow-y: hidden;
+  max-width: 600px;
+}
+#storyDiv{
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  flex-direction: row;
+}
+#story1Div{
+  position: relative;
+  width: 110px;
+  height: 200px;
+  background-color: #202122;
+  border-radius: 14px;
+  margin: 5px;
+}
+#stort1Image{
+  width: 110px;
+  height: 150px;
+  background-color: #fff;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+}
+#storyCreateIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #297BE6;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#storyText{
+  color: #e7e9ed;
+  font-size: 15px;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+#createStoryIconDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: #297BE6;
+  background-color: #73797F;
+  margin-top: -30px;
+  margin-left: 30%;
+}
+#storyText{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 15px;
+}
+.story1Img{
+  width: 110px;
+  height: 200px;
+  border-radius: 13px;
+}
+.story2Img{
+  width: 40px;
+  height: 40px;
+  border: 3px solid #318ef5;
+  border-radius: 50%;
+}
+.storyProfileImg{
+  margin-left: -100px;
+  margin-top: 10px;
+}
+.storyDiv{
+  display: flex;
+  justify-content: center;
+  margin-right: 65px;
 }
