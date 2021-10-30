@@ -116,7 +116,7 @@ header ul li {
   border-radius: 50%;
   margin: 10px;
 }
-#profileText {
+.profileText {
   color: rgb(228, 230, 235);
   font-size: 15px;
   margin: 2px;
@@ -162,17 +162,46 @@ header ul li {
   background-color: #e7e9ed;
   border: 5px solid #444546;
 }
-#LeftSecLineBreak {
-  margin-top: 15px;
-  margin-left: 7px;
-  width: 95%;
-  border: 1px solid #444544;
+#profileDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
 }
-#yourShortcutsDiv {
-  display: flex;
-  margin: 15px 0px 0px 25px;
-  color: rgb(176, 179, 184);
+#profileDiv:hover{
+    border-radius: 600px;
+    background-color: rgba(151, 144, 144, 0.2);
 }
-#seeMore2 {
-  margin: 10px;
+#rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+#navprofileText{
+    margin-left: 5px;
+    color: rgb(228, 230, 235);
+    font-size: 15px;
+    font-weight: 600;
+}
+#profileImage{
+    margin: 0;
+    margin-bottom: -7px;
+}
+#nineDotImage{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nineDotsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    background-color: #4E4F50;
+    border-radius: 50%;
+    padding: 6px; 
 }
