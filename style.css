@@ -230,6 +230,7 @@ header ul li {
   width: 700px;
 }
 #centerContent{
+  border: 4px solid red;
   height: 255px;
   overflow: auto;
   overflow-y: hidden;
@@ -310,4 +311,104 @@ header ul li {
   display: flex;
   justify-content: center;
   margin-right: 65px;
+}
+#MaincenterContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#centerContent2{
+  border: 4px solid red;
+  width: 500px;
+  height: 200px;
+  margin: 20px 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+#createPost1{
+  border-radius: 7px;
+  width: 498px;
+  height: 140px;
+  padding: 10px;
+  background-color: #242526;
+}
+#createPost1UperContent{
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#uperContentProfileImg{
+  padding: 4px;
+}
+#upperContentImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#upperContentImage:hover{
+  opacity: 0.8;
+}
+#createPost1LowerContent{
+  background-color: #3A3B3C;
+  border-radius: 50px;
+  width: 420px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+#createPost1LowerContent span{
+  margin-left: 20px;
+  color: #B8BBBF;
+}
+#createPost1LowerContent:hover{
+  background-color: #4E4F50;
+}
+#lineBrake{
+  margin-top: 10px;
+  border: 1px solid #3A3B3C;
+  border-radius: 10px;
+}
+#centerContentPost1lowerContent{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lowerContentIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#liveVideoIcon{
+  color: #F4556F;
+  font-size: 20px;
+}
+#photoVideoIcon{
+  color: #58C472;
+  font-size: 20px;
+}
+#feelingActivityIcon{
+  color: #F5BE3E;
+  font-size: 20px;
+}
+.post1lowerContentText{
+  color: #B8BBBF;
+  margin-left: 5px;
+}
+.lowerContentIcons{
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+}
+.lowerContentIcons:hover{
+  cursor: pointer;
+  background-color: rgba(151, 144, 144, 0.301);
 }
