@@ -319,13 +319,13 @@ header ul li {
 }
 #centerContent2{
   border: 4px solid red;
-  width: 500px;
-  height: 200px;
+  width: auto;
+  height: auto;
   margin: 20px 50px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  flex-direction: column;
 }
 #createPost1{
   border-radius: 7px;
@@ -411,4 +411,55 @@ header ul li {
 .lowerContentIcons:hover{
   cursor: pointer;
   background-color: rgba(151, 144, 144, 0.301);
+}
+#createRomeDiv{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #242526;
+  border-radius: 7px;
+}
+#createRomeIcon{
+  color: rgb(130, 63, 168);
+  font-size: 20px;
+  margin-left: 11px;
+}
+#createRomeChildDiv{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #318ef5;
+  width: 155px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+#createRomeChildDiv:hover{
+  background-color: rgba(167, 163, 163, 0.301);
+}
+#createRomeChildDiv span{
+  margin-left: 10px;
+  color: #297BE6;
+  font-weight: 600;
+}
+#createProfImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-direction: row;
+  margin-left: 17px;
+  cursor: pointer;
+}
+#createRomeProfileDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width:300px;
+  overflow: auto;
+  margin-left: 15px;
+}
+#createProfImg:hover{
+  opacity: 0.8;
 }
