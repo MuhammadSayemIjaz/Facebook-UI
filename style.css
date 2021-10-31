@@ -268,12 +268,6 @@ header ul li {
     height: 30px;
     border-radius: 50%;
 }
-#storyText{
-  color: #e7e9ed;
-  font-size: 15px;
-  justify-content: flex-start;
-  margin-left: 20px;
-}
 #createStoryIconDiv{
   display: flex;
   align-items: center;
@@ -290,6 +284,9 @@ header ul li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: #e7e9ed;
+  font-size: 15px;
+  font-weight: 600;
   margin-top: 10px;
   margin-left: 12px;
   font-size: 15px;
