@@ -8,6 +8,7 @@ body {
   background-color: #18191a;
 }
 header {
+  z-index: 3;
   position: fixed;
   top: 0;
   width: 100%;
@@ -71,7 +72,7 @@ header ul li {
   cursor: pointer;
 }
 #leftContentBar{
-  width: 300px;
+  width: 23%;
   height: 90vh;
   background-color: transparent;
   overflow: auto;
@@ -216,21 +217,19 @@ header ul li {
   background-color: rgba(151, 144, 144, 0.9);
 }
 #mainContent{
+  z-index: 0;
   display: flex;
   position: absolute;
   top: 60px;
   margin-top: 10px;
-  background-color: rgb(126, 98, 98);
+  width: 100%;
 }
 .MaincenterContent{
-  border: 4px solid red;
-  margin-left: 20px;
+  width: 54%;
   display: flex;
   justify-content: center;
-  width: 700px;
 }
 #centerContent{
-  border: 4px solid red;
   height: 255px;
   overflow: auto;
   overflow-y: hidden;
@@ -318,7 +317,6 @@ header ul li {
   align-items: center;
 }
 #centerContent2{
-  border: 4px solid red;
   width: auto;
   height: auto;
   margin: 20px 50px;
@@ -462,4 +460,154 @@ header ul li {
 }
 #createProfImg:hover{
   opacity: 0.8;
+}
+.rightContent{
+  display: flex;
+  width: 23%;
+  height: 90vh;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  padding: 10px;
+}
+.upperPortion{
+  width: 290px;
+  height: 350px;
+  border-radius: 13px;
+  background-color:transparent;
+  padding: 4px;
+}
+.SponserTitle{
+  width: 150px;
+  margin: 10px 0px;
+}
+.SponserTitle span{
+  color: #B8BABF;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.sponserBlockDiv{
+  border-bottom: 2px solid #4E4F50;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.sponserImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.PizzaImage{
+  width: 220px;
+  height: 130px;
+  border-radius: 7px;
+}
+.sponsercontent{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  word-break: break-all;
+}
+.sponsercontent h4{
+  color: #B8BABF;
+}
+.sponsercontent p{
+  color: #fff;
+  font-size: 12px;
+}
+.sponsercontent img{
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.centerPortion{
+  margin: 10px;
+  border-bottom: 2px solid #444546;
+}
+#birthdayIcon{
+  color: #297BE6;
+  font-size: 30px;
+}
+.personBirthday{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.birthdayContent p strong{
+  color: #fff;
+}
+.birthdayContent p{
+  color: #B8BABF;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.Contacts{
+  display: flex;
+}
+.contactsProfiles{
+display: flex;
+justify-content: left;
+align-items: center;
+padding: 10px;
+border-radius: 7px;
+}
+.contactsProfileImage{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.lowerPortion{
+  flex-direction: column;
+}
+.ContactsText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.ContactsText span{
+  font-size: 20px;
+  color: #B8BABF;
+}
+.contactsIcons{
+  display: flex;
+  flex-direction: row;
+  margin-left: 69px;
+}
+.ContactIconsDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.Icons{
+  color: #B8BABF;
+  font-size: 15px;
+}
+.ContactIconsDiv:hover{
+  background-color: #5d5f61;
+}
+.contactsProfiles:hover{
+  background-color: #373e46;
+}
+.contactsProfileImageDiv{
+  margin-left: 20px;
+}
+.contactsProfileNames{
+margin-left: 10px;
+}
+.contactsProfileImage{
+  border-radius: 50%;
+}
+.contactsProfileNames{
+  color: #B8BABF;
+  font-weight: 500;
+  font-size: 17px;
 }
