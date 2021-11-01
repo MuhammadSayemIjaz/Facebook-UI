@@ -12,6 +12,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   background-color: #242526;
   border: 1px solid #3b3f42;
   display: flex;
@@ -226,7 +227,7 @@ nav {
 #centerContent{
   overflow: auto;
   overflow-y: hidden;
-  width: 670px;
+  width: 600px;
 }
 #storyDiv {
   height: 220px;
